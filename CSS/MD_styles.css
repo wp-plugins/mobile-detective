@@ -13,7 +13,7 @@ border-collapse: collapse;
 	text-decoration: line-through;
 }
 
-.buttons
+.MD_admin .buttons
 {
   display: inline-block;
   background: #eeeeee; /* Old browsers */
@@ -32,7 +32,7 @@ border-collapse: collapse;
   color: #333;
   border-radius: .2em;
 }
-.buttons:before
+.MD_admin .buttons:before
 {
   float: left;
   width: 1em;
@@ -43,11 +43,11 @@ border-collapse: collapse;
   pointer-events: none;
 }
 
-.add:before    { content: "\271A"; }
-.minus:before   { content: "\002D"; }
-.delete:before { content: "\2718";}
-.save:before   { content: "\2714";}
-.rename:before  { content: "\2B0C";}
-.create:before  { content: "\2716"; }
+.MD_admin .add:before    { content: "\271A"; }
+.MD_admin .minus:before   { content: "\002D"; }
+.MD_admin .delete:before { content: "\2718";}
+.MD_admin .save:before   { content: "\2714";}
+.MD_admin .rename:before  { content: "\2B0C";}
+.MD_admin .create:before  { content: "\2716"; }
 
 
