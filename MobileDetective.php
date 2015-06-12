@@ -46,7 +46,7 @@ class WP_MD_mln{
 							$location=$atts['redirect'];
 							wp_safe_redirect( $location);return ($atts['redirect']);
 						} return ("url not set");*/
-		$detect = new Mobile_Detect;
+		$detect = new Mobile_Detect_forMD;
 		$s=file_get_contents(plugin_dir_path(__FILE__).'filters.txt');
 		$a=explode (",",$s);
 		foreach ($a as $valid_str){

@@ -25,7 +25,7 @@
  * @version     2.8.13
  */
 
-class Mobile_Detect
+class Mobile_Detect_forMD
 {
     /**
      * Mobile detection type.
