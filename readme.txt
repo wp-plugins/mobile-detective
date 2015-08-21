@@ -3,7 +3,7 @@ Contributors: mln141
 Donate link: http://wpplugins.ml
 Tags: access, cms, permission, restrictions, user, protection, mobile, tablet, desktop, information
 Requires at least: 4.2
-Tested up to: 4.2.3
+Tested up to: 4.3
 Stable tag: trunk
 
 This plugin is used to detect information about the device used by the user.
